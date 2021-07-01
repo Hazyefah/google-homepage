@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        nav{
+         margin: 15px;
+        }
+        .navigation ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation li{
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        .leftside{
+            float: left;
+            padding: 8px;
+        }
+
+        .rightside{
+            float: right;
+            padding: 8px;
+        }
+
+        .navigation ul li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .navigation ul li a:hover{
+            text-decoration: underline;
+        }
+        
+        .signin{
+            background-color: #4285f4;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            padding: 7px 10px 7px 10px;
+        }
+
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            padding-top: 125px;
+            padding-left: 120px;
+            
+        }
+
+        .searchbar ul {
+            list-style: none;
+            border-color: lightgray;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 20px;
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 5px 5px 5px;
+            margin-left: 350px;
+            margin-right: 350px;
+            
+        }
+
+    
+
+        .buttons ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+           
+        }
+        
+        .button button{
+            border: none;
+            border-radius: px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            
+        }
+
+        #button1{
+            margin-right: 15px;
+        }
+
+        #search input{
+            border: none;
+            outline: none;
+            
+        }
+
+
+        .footer ul{
+            list-style: none;
+
+        }
+
+        .footer li{
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+
+            
+        }
+
+     
+
+        .footer ul li a{
+            text-decoration: none;
+            color: #5F6863;
+        }
+
+        .footer ul li a:hover{
+            text-decoration: underline;
+        }
+
+
+        .footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #f2f2f2;
+            
+            
+        }
+
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+    <nav>
+        <div class="navigation">
+            <ul>
+                <li class="leftside leftfooter"><a href="" target="blank">About</a></li>
+                <li class="leftside leftfooter"><a href="" target="blank">Store</a><li>
+                <li class="rightside rightfooter"><button type="submit" class="signin">Sign In</button></li>
+                <li class="rightside rightfooter appdrawer" ><img src="images/apps_black_24dp.svg" alt=""></li>
+                <li class="rightside rightfooter"><a href="" target="blank">Images</a></li>
+                <li class="rightside rightfooter"><a href="" target="blank">Gmail</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <main>
+        <img src="images/googlelogo_color_272x92dp.png" class="logo">
+
+
+        <div class="searchbar">
+            <ul>
+          
+                <li id="searchicon"><img src="images/outline_search_black_24dp.png"></li>
+                <li id="search"><input type="text" size="60"></li>
+                <li id="voiceicon"><img src="images/settings_voice_black_24dp.svg"></li>
+       
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <ul>
+                <li id="button1" class="button"><button type="submit">Google Search</button></li>
+                <li id="button2" class="button"> <button type="submit">I'm Feeling Lucky</button></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <ul>
+                <li class="leftside"><a href="" target="blank">Advertising</a></li>
+                <li class="leftside"><a href="" target="blank">Business</a></li>
+                <li class="leftside"><a href="" target="blank">How Search Works</a><li>
+                <li class="rightside"><a href="" target="blank">Settings</a></li>
+                <li class="rightside"><a href="" target="blank">Terms</a></li>
+                <li class="rightside"><a href="" target="blank">Privacy</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
